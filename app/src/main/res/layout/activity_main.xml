@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background=" #ccffff"
+    android:orientation="vertical"
+    android:stretchColumns="1">
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="fill_parent"
+        android:layout_height="44dp"
+        android:gravity="center"
+        android:text="Calculadora"
+        android:textSize="30sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/resultado"
+        android:layout_width="fill_parent"
+        android:layout_height="78dp"
+        android:gravity="right"
+        android:text="Calculadora"
+        android:backgroundTint="#ffffff"
+        android:textSize="30sp"
+        android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/btnC"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="C"
+            android:textColor="#ffffff"
+            android:textSize="24sp"
+            app:backgroundTint="#1E1D1D"
+            app:iconTint="#292626" />
+
+    <TableRow
+        android:id="@+id/Fila2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#393838">
+
+        <Button
+            android:id="@+id/btnSiete"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="7"
+            android:textColor="#ffffff"
+            android:textSize="24sp"
+            app:backgroundTint="#0C0C0C" />
+
+        <Button
+            android:id="@+id/btnOcho"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="8"
+            android:textColor="#ffffff"
+            android:textSize="24sp"
+            app:backgroundTint="#0C0C0C" />
+
+        <Button
+            android:id="@+id/btnNueve"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="9"
+            android:textColor="#ffffff"
+            android:textSize="24sp"
+            app:backgroundTint="#0C0C0C" />
+
+        <Button
+            android:id="@+id/btnMultiplicacion"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="*"
+            android:textColor="#ffffff"
+            android:textSize="24sp"
+            app:backgroundTint="#cc8800" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/Fila3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#393838">
+
+        <Button
+            android:id="@+id/btnCuatro"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="4"
+            android:textSize="24sp"
+            android:textColor="#ffffff"
+            app:backgroundTint="#0C0C0C"/>
+
+        <Button
+            android:id="@+id/btnCinco"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="5"
+            android:textColor="#ffffff"
+            android:textSize="24sp"
+            app:backgroundTint="#0C0C0C" />
+
+        <Button
+            android:id="@+id/btnSeis"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="6"
+            android:textColor="#ffffff"
+            android:textSize="24sp"
+            app:backgroundTint="#0C0C0C" />
+
+
+        <Button
+            android:id="@+id/btnResta"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="-"
+            android:textColor="#ffffff"
+            android:textSize="24sp"
+            app:backgroundTint="#cc8800" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/Fila4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#393838">
+
+        <Button
+            android:id="@+id/btnUno"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:textColor="#ffffff"
+            android:text="1"
+            android:textSize="24sp"
+            app:backgroundTint="#0C0C0C" />
+
+        <Button
+            android:id="@+id/btnDos"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="2"
+            android:textColor="#ffffff"
+            android:textSize="24sp"
+            app:backgroundTint="#0C0C0C" />
+
+        <Button
+            android:id="@+id/btnTres"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="3"
+            android:textColor="#ffffff"
+            android:textSize="24sp"
+            app:backgroundTint="#0C0C0C" />
+
+        <Button
+            android:id="@+id/btnSuma"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="+"
+            android:textColor="#ffffff"
+            android:textSize="24sp"
+            app:backgroundTint="#cc8800" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/Fila5"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#393838">
+
+        <Button
+            android:id="@+id/btnIgual"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="="
+            android:textColor="#ffffff"
+            android:textSize="24sp"
+            app:backgroundTint="#cc8800" />
+
+        <Button
+            android:id="@+id/btnCero"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="0"
+            android:textColor="#ffffff"
+            android:textSize="24sp"
+            app:backgroundTint="#0C0C0C" />
+
+        <Button
+            android:id="@+id/btnPunto"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="."
+            android:textColor="#ffffff"
+            android:textSize="24sp"
+            app:backgroundTint="#0C0C0C" />
+
+        <Button
+            android:id="@+id/btnDivision"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:text="/"
+            android:textColor="#ffffff"
+            android:textSize="24sp"
+            app:backgroundTint="#cc8800" />
+
+    </TableRow>
+</TableLayout>
